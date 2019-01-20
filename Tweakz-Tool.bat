@@ -1,4 +1,4 @@
-@title Tweaks Tool For CPN5L
+@title Tweaks Tool For Realme 1
 @echo off
 adb\adb.exe start-server
 :OP0
