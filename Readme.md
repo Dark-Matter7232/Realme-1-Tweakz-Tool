@@ -1,4 +1,5 @@
 //////--------//////-------////// //////--------//////-------////// //////--------//////-------////// //////--------//////-------////// //////--------//////
+
 Realme 1 Tweakz Tool is Created By AnuragRai 
 
 This Tools helps in removing coolpad Bloatware and replacing them with stock google apps and light apps like via browser,
@@ -24,14 +25,3 @@ Steps to use this Tool
 I have Created This Tool For Realme Because Rooting The Device Is Currently Not Possible 
 //////--------//////-------////// //////--------//////-------////// //////--------//////
 //////--------/////
-
-TTTTTTTTTTTTTTTTTTT    W           W   EEEEEEEEEEEEE   AAAAAAAAAAAAAA   K    K         /
-TTTTTTTTTTTTTTTTTTT    W           W   E               A            A   K   K         /
-        TT             W           W   E               A            A   K  K         /
-	    TT             W           W   E               A            A   K K         /
-		TT             W           W   E               A            A   KK         --------
-        TT             W     WW    W   EEEEEEEEEEEEE   AAAAAAAAAAAAAA   KK                /
-		TT             W    W  W   W   E               A            A   K  K             /
-		TT             W   W    W  W   E               A            A   K   K           /
-		TT             W  W      W W   E               A            A   K    K         /
-		TT             WW         WW   EEEEEEEEEEEEE   A            A   K     K       /
