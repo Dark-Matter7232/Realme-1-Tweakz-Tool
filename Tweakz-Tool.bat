@@ -21,7 +21,7 @@ set /p Choice=""
 if '%Choice%'=='1' goto OP1
 if '%Choice%'=='2' goto OP2
 if '%Choice%'=='3' goto OP3
-if '%Choice%'=='3' goto OP4
+if '%Choice%'=='4' goto OP4
 	
 
 :OP1
