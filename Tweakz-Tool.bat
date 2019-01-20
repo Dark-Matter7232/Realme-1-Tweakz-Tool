@@ -49,7 +49,6 @@ adb\adb.exe uninstall -k --user 0 com.coloros.oshare
 adb\adb.exe uninstall -k --user 0 com.emoji.keyboard.touchpal
 adb\adb.exe uninstall -k --user 0 com.android.chrome
 adb\adb.exe uninstall -k --user 0 com.coolpad.music
-adb\adb.exe uninstall -k --user 0 in.amazon.mShop.android.shopping
 adb\adb.exe uninstall -k --user 0 com.mediatek.mtklogger
 echo Done! Press any key to continue.
 pause >nul
