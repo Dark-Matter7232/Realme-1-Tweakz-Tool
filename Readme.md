@@ -22,6 +22,7 @@ Steps to use this Tool
 13:Your device will reboot now and All bloatware will be gone(Launcher will be replaced with pixel Launcher)
 
 
-I have Created This Tool For Realme Because Rooting The Device Is Currently Not Possible 
+I have Created This Tool For Realme Because Rooting The Device Is Currently Not Possible
+
 //////--------//////-------////// //////--------//////-------////// //////--------//////
 //////--------/////
