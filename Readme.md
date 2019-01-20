@@ -2,7 +2,7 @@
 
 Realme 1 Tweakz Tool is Created By AnuragRai 
 
-This Tools helps in removing coolpad Bloatware and replacing them with stock google apps and light apps like via browser,
+This Tools helps in removing OPPO Bloatware and replacing them with stock google apps and light apps like via browser,
 vlc player and retro player without Root and everytime 2.08 gb ram free(only 0.92 gb ram used)because bloatwares and ram eating core system apps
 removed :-)
 
