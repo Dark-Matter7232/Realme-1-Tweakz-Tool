@@ -36,19 +36,17 @@ adb\adb.exe wait-for-device
 adb\adb.exe uninstall -k --user 0 com.google.android.youtube
 adb\adb.exe uninstall -k --user 0 com.android.browser
 adb\adb.exe uninstall -k --user 0 com.coloros.cloud
-adb\adb.exe uninstall -k --user 0 com.google.android.youtube
 adb\adb.exe uninstall -k --user 0 com.google.android.music
 adb\adb.exe uninstall -k --user 0 com.google.android.videos
 adb\adb.exe uninstall -k --user 0 com.google.android.apps.photos
-adb\adb.exe uninstall -k --user 0 com.google.android.talk
 adb\adb.exe uninstall -k --user 0 com.google.android.apps.maps
 adb\adb.exe uninstall -k --user 0 com.google.android.apps.docs
 adb\adb.exe uninstall -k --user 0 com.google.android.apps.tachyon
 adb\adb.exe uninstall -k --user 0 com.oppo.market
 adb\adb.exe uninstall -k --user 0 com.coloros.oshare
 adb\adb.exe uninstall -k --user 0 com.emoji.keyboard.touchpal
+adb\adb.exe uninstall -k --user 0 com.cootek.s
 adb\adb.exe uninstall -k --user 0 com.android.chrome
-adb\adb.exe uninstall -k --user 0 com.coolpad.music
 adb\adb.exe uninstall -k --user 0 com.mediatek.mtklogger
 echo Done! Press any key to continue.
 pause >nul
