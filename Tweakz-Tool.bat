@@ -13,7 +13,8 @@ echo ---------------------------------------------------------------------------
 echo  1: Remove Preloaded apps.
 echo  2: Install Moded Apps. 
 echo  3: Reboot the Realme device "Do This After Step 1 and 2".
-echo  4: Remove Stock Launcher. 
+echo  4: Remove Stock Launcher.
+echo  5: Uninstall The App By Package Name.
 echo --------------------------------------------------------------------------------------------------------------
 set Choice=
 set /p Choice=""
@@ -22,6 +23,7 @@ if '%Choice%'=='1' goto OP1
 if '%Choice%'=='2' goto OP2
 if '%Choice%'=='3' goto OP3
 if '%Choice%'=='4' goto OP4
+if '%Choice%'=='5' goto OP5
 	
 
 :OP1
@@ -93,3 +95,10 @@ adb\adb.exe uninstall -k --user 0 com.oppo.Launcher
 start Tweakz-Tool.bat
 exit
 
+:OP5
+echo Enter tha Package Name Of The App Below.
+SET /P _inputname= Please enter the Package Name:
+IF "%_inputname%"=="$$  GOTO :adb\adb.exe uninstall -k --user 0 $$
+adb\adb.exe uninstall -k --user 0 $$
+start Tweakz-Tool.bat
+exit
