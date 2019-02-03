@@ -11,9 +11,9 @@ echo  --------------------------------------------------------------------------
 echo  To use this, Type the number of the option, and press the enter key. 
 echo --------------------------------------------------------------------------------------------------------------
 echo  1: Remove Preloaded apps.
-echo  2: Install Stock Google And Light Apps 
-echo  3: Reboot the Realme 1 "Do This After Step 1 and 2".
-echo  4: Remove Stock Launcher 
+echo  2: Install Moded Apps. 
+echo  3: Reboot the Realme device "Do This After Step 1 and 2".
+echo  4: Remove Stock Launcher. 
 echo --------------------------------------------------------------------------------------------------------------
 set Choice=
 set /p Choice=""
@@ -27,8 +27,8 @@ if '%Choice%'=='4' goto OP4
 :OP1
 cls
 echo ---------------------------------------------------------------------------------------------------------------
-echo This will remove every Bloatware app exept for core apps and Settings And After This Step Use option 2 and 3
-echo Press any key to continu.
+echo This will remove  all Bloatware  except core apps and Settings, After This Step Use option 2 and 3.
+echo Press any key to continue.
 echo ---------------------------------------------------------------------------------------------------------------
 pause >nul
 echo [*-*] Waiting for Device.
@@ -55,7 +55,7 @@ exit
 
 :OP2
 echo.--------------------------------------------------------------------------------------
-echo This Will Install Lght Apps Instead Of those Ram Consuming ColorOS Apps.
+echo This Will Install Moded Apps in place of those Ram Consuming ColorOS Apps.
 echo Press any key to continue.
 echo.--------------------------------------------------------------------------------------
 pause >nul
@@ -86,7 +86,7 @@ start Tweakz-Tool.bat
 exit
 
 :OP4
-echo Removing  Oppo Launcher(Make Surre That You Have Installed Another Launcher)
+echo Removing  Oppo Launcher.
 echo [*-*] Waiting for Device.
 adb\adb.exe wait-for-device
 adb\adb.exe uninstall -k --user 0 com.oppo.Launcher
