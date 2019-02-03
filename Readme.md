@@ -2,41 +2,36 @@
 
 Realme 1 Tweakz Tool is Created By AnuragRai 
 
-This Tools helps in removing OPPO Bloatware and replacing them with stock google apps and light apps like via browser,
-vlc player and retro player without Root and everytime 2.08 gb ram free(only 0.92 gb ram used)because bloatwares and ram eating core system apps
-removed :-)
+This Tool helps in removing Bloatware and replacing system apps with moded apps like via browser, youtube vanced(no ads and background playback support),micro-g without Root and every time you will boot the device,2.08 GB ram would be free because ram consuming bloatware are removed :-)
 
 Steps to use this Tool
 
-1:go to setting->about phone
+1: go to settings>about phone
 
-2:click on build no. 7 times
+2: click on build no. 7 times
 
-3:go to developer options
+3: go to developer options
 
-4:click on usb debugging
+4: click on USB debugging
 
-5:Open This Tool
+5: Open This Tool
 
-6:Select remove prloaded Apps(Option 1)
+6: Select remove preloaded Apps(Option 1)
 
-7:Connect your phone
+7: Connect your phone
 
-8:press enter and Pop-up Will Apper
+8: press enter and Pop-up Will Appear
 
-9:Click on Allow Debugging
+9: Click on Allow Debugging
 
-10:wait for process to continue
+10: wait for the process to continue
 
-11:After process is done Select Option 2
+11: After the process is done Select Option 2
 
-12:After process 2 is done Select Option 3
+12: After process 2 is done Select Option 3
 
-13:Your device will reboot now and All bloatware will be gone(Launcher will be replaced with poco launcher if you selects option 4)
+13: Your device will reboot now and All bloatware will be gone(Launcher will be replaced with poco launcher if you selects option 4)
 
+I have Created This Tool For Realme Because Rooting The Device Is Not Possible
 
-
-I have Created This Tool For Realme Because Rooting The Device Is Currently Not Possible
-
-//////--------//////-------////// //////--------//////-------////// //////--------//////
-//////--------/////
+//////--------//////-------////// //////--------//////-------////// //////--------//////-------////// //////--------//////-------////// //////--------//////
