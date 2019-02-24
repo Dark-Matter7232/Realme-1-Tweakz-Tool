@@ -5,8 +5,8 @@ adb\adb.exe start-server
 cls
 color 0e
 echo.
-echo  //////--------//////-------//////
-echo     Menu of Tweaks By AnuragRai 
+echo                                 //////--------//////-------//////
+echo                                    Menu of Tweaks By AnuragRai 
 echo  --------------------------------------------------------------------------------------------------------------
 echo  To use this, Type the number of the option, and press the enter key. 
 echo --------------------------------------------------------------------------------------------------------------
@@ -14,7 +14,6 @@ echo  1: Remove Preloaded apps.
 echo  2: Install Moded Apps. 
 echo  3: Reboot the Realme device "Do This After Step 1 and 2".
 echo  4: Remove Stock Launcher.
-echo  5: Uninstall The App By Package Name.
 echo --------------------------------------------------------------------------------------------------------------
 set Choice=
 set /p Choice=""
@@ -23,11 +22,8 @@ if '%Choice%'=='1' goto OP1
 if '%Choice%'=='2' goto OP2
 if '%Choice%'=='3' goto OP3
 if '%Choice%'=='4' goto OP4
-if '%Choice%'=='5' goto OP5
-	
-
+    
 :OP1
-cls
 echo ---------------------------------------------------------------------------------------------------------------
 echo This will remove  all Bloatware  except core apps and Settings, After This Step Use option 2 and 3.
 echo Press any key to continue.
@@ -35,24 +31,24 @@ echo ---------------------------------------------------------------------------
 pause >nul
 echo [*-*] Waiting for Device.
 adb\adb.exe wait-for-device
-adb\adb.exe uninstall -k --user 0 com.google.android.youtube
-adb\adb.exe uninstall -k --user 0 com.android.browser
-adb\adb.exe uninstall -k --user 0 com.coloros.cloud
-adb\adb.exe uninstall -k --user 0 com.google.android.music
-adb\adb.exe uninstall -k --user 0 com.google.android.videos
-adb\adb.exe uninstall -k --user 0 com.google.android.apps.photos
-adb\adb.exe uninstall -k --user 0 com.google.android.apps.maps
-adb\adb.exe uninstall -k --user 0 com.google.android.apps.docs
-adb\adb.exe uninstall -k --user 0 com.google.android.apps.tachyon
-adb\adb.exe uninstall -k --user 0 com.oppo.market
-adb\adb.exe uninstall -k --user 0 com.coloros.oshare
-adb\adb.exe uninstall -k --user 0 com.emoji.keyboard.touchpal
-adb\adb.exe uninstall -k --user 0 com.cootek.s
-adb\adb.exe uninstall -k --user 0 com.android.chrome
-adb\adb.exe uninstall -k --user 0 com.mediatek.mtklogger
+adb\adb.exe uninstall  --user 0 com.google.android.youtube
+adb\adb.exe uninstall  --user 0 com.android.browser
+adb\adb.exe uninstall  --user 0 com.coloros.cloud
+adb\adb.exe uninstall  --user 0 com.google.android.music
+adb\adb.exe uninstall  --user 0 com.google.android.videos
+adb\adb.exe uninstall  --user 0 com.google.android.apps.photos
+adb\adb.exe uninstall  --user 0 com.google.android.apps.maps
+adb\adb.exe uninstall  --user 0 com.google.android.apps.docs
+adb\adb.exe uninstall  --user 0 com.google.android.apps.tachyon
+adb\adb.exe uninstall  --user 0 com.oppo.market
+adb\adb.exe uninstall  --user 0 com.coloros.oshare
+adb\adb.exe uninstall  --user 0 com.emoji.keyboard.touchpal
+adb\adb.exe uninstall  --user 0 com.cootek.s
+adb\adb.exe uninstall  --user 0 com.android.chrome
+adb\adb.exe uninstall  --user 0 com.mediatek.mtklogger
 echo Done! Press any key to continue.
 pause >nul
-start Tweakz-Tool.bat
+start Tweakz-Tool.bat               
 exit
 
 :OP2
@@ -91,14 +87,7 @@ exit
 echo Removing  Oppo Launcher.
 echo [*-*] Waiting for Device.
 adb\adb.exe wait-for-device
-adb\adb.exe uninstall -k --user 0 com.oppo.Launcher
+adb\adb.exe pm uninstall  --user 0 com.oppo.Launcher
 start Tweakz-Tool.bat
 exit
 
-:OP5
-echo Enter tha Package Name Of The App Below.
-SET /P _inputname= Please enter the Package Name:
-IF "%_inputname%"=="$$  GOTO :adb\adb.exe uninstall -k --user 0 $$
-adb\adb.exe uninstall -k --user 0 $$
-start Tweakz-Tool.bat
-exit
